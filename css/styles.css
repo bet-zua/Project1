@@ -6,7 +6,7 @@
  @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap');
 
 body {
-  background-color: rgb(58, 193, 98);
+  background-color: rgb(189, 145, 23);
   color: white;
   font-family: 'Playfair Display', serif;
   padding: 5px;
@@ -115,6 +115,12 @@ h1 {
   font-style: normal;
 }
 
+.link {
+  font-style: italic;
+  color: white;
+  text-decoration: none;
+}
+
 @media (min-width: 768px) {
   body {
     padding: 25px;
@@ -161,6 +167,9 @@ h1 {
   }
 
   .source {
+    font-size: 1.25rem;
+  }
+  .link {
     font-size: 1.25rem;
   }
 }
