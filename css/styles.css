@@ -77,13 +77,13 @@ h1 {
 }
 
 .quote:before {
-  content: "â€œ";
+  content: "“";
   top: 0.1em;
   left: -0.5em;
 }
 
 .quote:after {
-  content: "â€";
+  content: "”";
   bottom: -0.1em;
   margin-left: 0.1em;
   position: absolute;
@@ -98,7 +98,7 @@ h1 {
 }
 
 .source:before {
-  content: "â€”";
+  content: "—";
 }
 
 .citation {
