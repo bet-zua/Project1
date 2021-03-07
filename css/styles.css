@@ -6,7 +6,7 @@
  @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap');
 
 body {
-  background-color: rgb(189, 145, 23);
+  background-color: rgb(58, 193, 98);
   color: white;
   font-family: 'Playfair Display', serif;
   padding: 5px;
@@ -77,13 +77,13 @@ h1 {
 }
 
 .quote:before {
-  content: "“";
+  content: "â€œ";
   top: 0.1em;
   left: -0.5em;
 }
 
 .quote:after {
-  content: "”";
+  content: "â€";
   bottom: -0.1em;
   margin-left: 0.1em;
   position: absolute;
@@ -98,7 +98,7 @@ h1 {
 }
 
 .source:before {
-  content: "—";
+  content: "â€”";
 }
 
 .citation {
@@ -113,12 +113,6 @@ h1 {
 .year:before {
   content: ", ";
   font-style: normal;
-}
-
-.link {
-  font-style: italic;
-  color: white;
-  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -167,9 +161,6 @@ h1 {
   }
 
   .source {
-    font-size: 1.25rem;
-  }
-  .link {
     font-size: 1.25rem;
   }
 }
