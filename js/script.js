@@ -63,7 +63,7 @@ function updateBackground(){
 document.getElementById('load-quote').addEventListener("click", updateBackground, false);
 
 
-/***
+/**
  * `printQuote` function prints a random quote on random background color every 10 seconds
 ***/
 function timing(){
